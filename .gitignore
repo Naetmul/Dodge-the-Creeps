@@ -1,6 +1,17 @@
 /export/*
 !/export/HTML5/
 
+.DS_Store
+*.tres
+*.tscn
+*.gd
+/icon.png
+/icon.png.import
+/project.godot
+/art/
+/fonts/
+
+
 # Created by https://www.gitignore.io/api/godot
 # Edit at https://www.gitignore.io/?templates=godot
 
