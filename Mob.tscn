@@ -27,8 +27,8 @@ animations = [ {
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
-radius = 35.6945
-height = 25.4642
+radius = 33.543
+height = 13.7847
 
 [node name="Mob" type="RigidBody2D"]
 collision_mask = 0
@@ -42,6 +42,7 @@ __meta__ = {
 scale = Vector2( 0.75, 0.75 )
 frames = SubResource( 1 )
 animation = "walk"
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

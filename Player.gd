@@ -1,4 +1,5 @@
 extends Area2D
+
 signal hit
 
 export var speed = 400  # How fast the player will move (pixels/sec).
